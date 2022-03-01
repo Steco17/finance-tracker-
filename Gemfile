@@ -71,6 +71,6 @@ group :test do
 end
 
 group :production do
-  gem 'postgres', '~> 0.8.1'
+  gem 'pg'
   gem 'rails_12factor', '~> 0.0.3'
 end
